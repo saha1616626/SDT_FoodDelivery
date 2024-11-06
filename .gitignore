@@ -1,0 +1,34 @@
+# Бинарные файлы .NET
+bin/
+obj/
+
+# Папки для выходных данных публикации
+publish/
+**/publish/
+
+# Файлы пользовательских настроек и конфигурации среды
+appsettings*.json
+# Исключить конфигурацию для разных сред
+*.local
+
+# Системные файлы
+*.suo
+*.user
+*.userprefs
+.DS_Store
+Thumbs.db
+
+# Чувствительные данные
+secrets.json
+*.pfx
+
+# Папки кэша и временные файлы
+.vs/
+.idea/
+.vscode/
+npm-debug.log
+yarn-error.log
+
+# Конфигурации зависимостей
+node_modules/
+packages/
